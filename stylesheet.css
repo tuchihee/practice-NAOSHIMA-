@@ -1,0 +1,132 @@
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  text-align: left;
+}
+header h1 {
+  color: white;
+  font-size: 35px;
+  font-family: "Open Sans", sans-serif;  /*文字が変わっていない*/
+  float: left;
+}
+
+nav{
+    width: 100%;
+    overflow: hidden;
+}
+nav ul{
+    width: 40%;
+    margin-left: 30%;
+    display: flex;　/*文字は真ん中にしたい*/
+
+}
+nav li{
+    width: calc(25% - 2px);
+    border-left: 2px solid #0A6D76;
+
+
+}
+nav li:last-child{
+    border-right: 2px solid #0A6D76; /*線の前後に"・"がつくのはなぜ？*/
+}
+nav a{
+    display: block; /*1つのli全体にリンクを有効にする*/
+    text-decoration: none;
+    color: #0A6D76;  /*文字色の変更*/
+    font-size: 20px;    /*フォントサイズの指定*/
+    letter-spacing: 5px;    /*文字と文字の間隔をあける*/
+    font-weight: 400;   /*文字の太さを調整*/
+    line-height: 45px;  /*行間の指定（ナビボタンの高さ指定）*/
+}
+nav a:hover{
+    background-color: #6E9ACC;   /*背景色の指定*/
+    color: white;
+    transition: 0.7s;
+}
+
+.top-wrapper {
+  background-image: url(https://lh3.googleusercontent.com/BeA8YK4TxdWhcxio7xkj4IjO-JjptF2GCB0ezBhSsyq2yf6ASuf-h6C3sSU5YDo08OEF9zxZl0-_ge_nkrgf6VETTACJ0pDyda5tpTLScnMB6SjW-sOkm4cHA5r3VE8GxBVjfxMtoG7zXA7Fk9rmQr3C9Av1dKCZOxonAcJ9h0ojE9MVP_To6MHcAJDvLK8F4D-hubwp2ou0rVZ2276fza8cEjc5NpMDWQozNV3S3M15aXNUZqpJ5XcVMlnAtIxIwpt_8ktOlF0fNs5EKwahH-HJffn49kquNnucS0GOKLQOd02mvdtzJ1XNgRgfRGviHFmvpD-PKJ1cKqYKgyYown_sCGhwobvHAuY0Oav6yCLiQxFGccqltfwUWzZ-KsSPFfdzdFiUA1UnHDNKYJ0iF3qQfbuPXvweme71l1R068X-DP_nFpZwMJFu8PWB2QOXXo2_9mvsquq23U5UT_ZUR78qwYG-xtfqzlWgc6DjGxdUI4n5qv-_GBPARnhrC3MByew-ma3Qp14PvY3uBCJoRJ1RIj_3PAwso2VQB5Ij0hW99aPRmjn06RKQy78pKoRMSq7afoGEi3TRNjN57h3DA-e50eBwzfaBNMf4X1iHcX7tMNhidA64lcGdcQIB5IT5rScpZE2qU6reWOymICxg25iZUU3WWjtdqMXIe34JlKT6rqOM9GgE1NAtM4xr9JgbzGmnSvD1QsmPv2idreS210-LcQ=w1461-h974-no);
+  height: 200px
+  background-size: cover; /*写真は繰り返さず一枚大きくしたい*/
+
+  padding: 180px 0 100px 0;
+  font-family: "Pacifico";
+
+  background-position: top center;
+  color: white;
+  text-align: center;
+}
+
+.container h1{
+  font-size: 80px;
+  opacity: 0.7;
+}
+
+.naoshima-wrapper {
+  background-color: #EFFBFB;
+  width: 100%;
+}
+
+.img {
+  width: 50%;
+  height: auto;
+}
+.what-item {
+  display: flex; /*写真を小さくしたい*/
+  justify-content: space-between;　　　
+}
+.what-item text {
+  width: 60%;
+}
+
+
+
+.hightlight-item {
+ display: flex; /*写真を小さくしたい*/
+ justify-content: space-between;
+ flex-direction: row-reverse;
+}
+.box-text2 text {
+  width: 60%;
+}
+
+
+
+.setouchi-item {
+  display: flex; /*写真を小さくしたい*/
+  justify-content: space-between;
+}
+.setouchi-item text {
+  width: 60%;
+}
+
+
+.access-item {
+  display: flex; /*写真を小さくしたい*/
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.access-item text {
+  width: 60%;
+}
+.access-item map { /*小さくしたい*/
+}
+
+
+.message-wrapper {
+
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+footer {
+  color: #0A6D76;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;  /*文字が変わっていない*/
+  background-color: #EFFBFB;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
