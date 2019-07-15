@@ -1,0 +1,12 @@
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+}
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {　　
+  .item {
+    width: 100%;
+  }
+}
